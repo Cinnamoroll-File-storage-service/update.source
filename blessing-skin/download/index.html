@@ -181,12 +181,14 @@
         console.info('Action:', e.action);
         console.info('Text:', e.text);
         console.info('Trigger:', e.trigger);
+	window.alert("复制成功");
       });
 
       clipboard.on('error', function (e) {
         console.info('Action:', e.action);
         console.info('Text:', e.text);
         console.info('Trigger:', e.trigger);
+	window.alert("复制失败");
       });
 </script>
 </body>
